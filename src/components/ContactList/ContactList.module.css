@@ -1,8 +1,10 @@
 .contactList {
   list-style: none;
   padding: 0;
-  margin: 5% 0 0 30%;
-  display: -webkit-inline-box;
+  /* margin: 5% 10% 0 30%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap:20px;
   /* display: flex;
   flex-wrap: wrap;*/
@@ -17,5 +19,5 @@
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #f9f9f9;
+  background-color: #869998c3;
 }

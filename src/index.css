@@ -26,15 +26,26 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+      justify-content: center;
+
   min-width: 320px;
   min-height: 100vh;
 }
 
 h1 {
+   display: flex;
+  place-items: center;
+      justify-content: center;
+    align-items: center;
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+h3{
+  display: flex;
+  place-items: center;
+      justify-content: center;
+    align-items: center;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
