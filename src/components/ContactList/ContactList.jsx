@@ -11,7 +11,7 @@ const ContactList = () => {
 
 // const contacts = useSelector((state) => state.contacts.items);
   const filteredContacts = contacts.filter((contact) => {
-    contact.name.toLowerCase().includes(filter.toLowerCase())
+   return contact.name.toLowerCase().includes(filter.toLowerCase())
   });
 
   const handleDelContact = (id) => {
