@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+
 const initialContactsState = {
     items: [
         { id: "id-1", name: "Rosie Simpson", number: "459-12-56" },
